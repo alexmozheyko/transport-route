@@ -32,7 +32,3 @@ const finish = 'finish';
     path: ['start', 'A', 'D', 'finish']
 }
 ```
-
-**Примечание:**
-
-Каркас решения находится в папке [src/](https://github.com/yandex-shri-minsk-2019/task-2/tree/master/src), поместите свое решение в `solution.js`
