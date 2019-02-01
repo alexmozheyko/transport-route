@@ -14,8 +14,8 @@ const solution = function (graph, start, finish)  {
   	let nodeName = start;
 
   	while (nodeName) {
-    	let currentNode    = graph[nodeName];
-    	let nodePathLength = pathLengths[nodeName];
+    	const currentNode    = graph[nodeName];
+    	const nodePathLength = pathLengths[nodeName];
 
     	for (let child in currentNode) {
 			const childNodePathLength = currentNode[child] + nodePathLength;
