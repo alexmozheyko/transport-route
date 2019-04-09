@@ -1,15 +1,15 @@
-# Транспортный путь
+# Transport route
 
-У вас есть карта звёздного неба. На ней указано название каждой звезды, а также расстояние от неё до других звёзд в световых секундах. Реализуйте функцию `solution`, которая должна принимать три аргумента: объект, в котором ключами являются названия звёзд, а значениями — расстояния до звёзд (в космосе одностороннее движение), а также названия начальной и конечной точки пути — `start` и `finish` соответственно. Функция должна возвращать кратчайшее расстояние от звезды `start` до звезды `finish` и путь, по которому нужно пройти.
+You have a starry sky map. It shows the name of each star, as well as the distance from it to other stars in light seconds. Implement the function `solution`, which should take three arguments: the object in which the keys are the names of the stars, and the values are the distances to the stars (one-way traffic in space), and the names of the starting and ending points of the path -` start` and `finish` respectively. The function should return the shortest distance from the star `start` to the star` finish` and the path to be taken.
 
-**Сигнатура функции:**
+**Function signature:**
 ```js
 const solution = function(graph, start, finish)  {
-    // Ваше решение
+    // your solution
 }
 ```
 
-**Пример входных данных:**
+**Input data example:**
 
 ```js
 const graph = {
@@ -24,7 +24,7 @@ const start = 'start';
 const finish = 'finish';
 ```
 
-**Пример выходных данных:**
+**Output data example:**
 
 ```js
 {
