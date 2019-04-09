@@ -5,7 +5,7 @@ const solution = function (graph, start, finish)  {
 	const visitedNodes = [];
 
   	for (let node in graph) {
-    	ascendants[node]  = null;
+   		ascendants[node]  = null;
     	pathLengths[node] = Infinity;
   	}
 
@@ -48,7 +48,7 @@ const solution = function (graph, start, finish)  {
 }
 
 /**
- * Return name of the node with the shortest path to it from the given 'nodeName'.
+ * Returns name of the node with the shortest path to it from the given 'nodeName'.
  * @param {object} pathLengths - The storage of all nodes and shortest path lengths to them.
  * @param {array} visitedNodes - The arrays of nodes that was proccessed while going throung the graph.
  * @return {string} The name of the node.
